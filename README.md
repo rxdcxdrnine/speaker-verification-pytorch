@@ -1,5 +1,5 @@
 # speaker-verification-pytorch
-Speaker Verification in Pytorch
+Speaker Verification with Pytorch Implementation.
 
 ## 1. Preprocessing
 - melspectrogram
@@ -8,4 +8,21 @@ Speaker Verification in Pytorch
 - time augmentation
 
 ## 2. DNN
-> #2.1 
+> ### 2.1 Models
+>> - MLP (Linear + BatchNorm + ReLU)
+>> - CNN (Conv2d + BatchNorm + ReLU)
+
+>> - ResNet
+>> - SeResNet (Squeeze-and-Excitation Network + ResNet)
+
+> ### 2.2 Loss functions
+>> - crossEntropy
+>> - amsoftmax
+>> - prototypical
+
+> ### 2.3 Optimizers
+>> - SGD
+>> - Adam
+
+## 3. Eval
+> - EER
