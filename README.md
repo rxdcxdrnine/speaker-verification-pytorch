@@ -8,21 +8,20 @@ Speaker Verification with Pytorch Implementation.
 - time augmentation
 
 ## 2. DNN
-> ### 2.1 Models
->> - MLP (Linear + BatchNorm + ReLU)
->> - CNN (Conv2d + BatchNorm + ReLU)
+### 2.1 Models
+> - MLP (Linear + BatchNorm + ReLU)
+> - CNN (Conv2d + BatchNorm + ReLU)
+> - ResNet
+> - SeResNet (Squeeze-and-Excitation Network + ResNet)
 
->> - ResNet
->> - SeResNet (Squeeze-and-Excitation Network + ResNet)
+### 2.2 Loss functions
+> - crossEntropy
+> - amsoftmax
+> - prototypical
 
-> ### 2.2 Loss functions
->> - crossEntropy
->> - amsoftmax
->> - prototypical
-
-> ### 2.3 Optimizers
->> - SGD
->> - Adam
+### 2.3 Optimizers
+> - SGD
+> - Adam
 
 ## 3. Eval
 > - EER
