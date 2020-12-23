@@ -1,5 +1,6 @@
 # speaker-verification-pytorch
 Speaker Verification with Pytorch Implementation.
+Run on NGC (Nivida GPU Cloud) docker container.
 
 ## 1. Preprocessing
 - melspectrogram
