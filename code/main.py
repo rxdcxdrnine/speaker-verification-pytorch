@@ -118,8 +118,6 @@ def main(args):
                                         "batch_size" : args["batch_size"],
 
                                         "n_mfcc" : args["n_mfcc"],
-                                        ""
-
                                         "n_fft" : args["n_fft"],
                                         "n_mels" : args["n_mels"],
                                         "win_length" : args["win_length"],
