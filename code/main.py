@@ -109,23 +109,22 @@ def main(args):
                                     weight_decay = args["weight_decay"],
                                     amsgrad=True)
 
-    if args["neptune"]:
-        neptune.init("changgu/ETRI",
-                    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vdWkubmVwdHVuZS5haSIsImFwaV91cmwiOiJodHRwczovL3VpLm5lcHR1bmUuYWkiLCJhcGlfa2V5IjoiN2JhMTk0Y2QtNTc0Ni00ZGVmLTliMjItMmViY2M5YzQ1NzA5In0=")
-        neptune.create_experiment(name="ETRI DB",
-                                params={"scaling" : args["scaling"],
-                                        "div" : args["div"],
-                                        "batch_size" : args["batch_size"],
+#     if args["neptune"]:
+#         neptune.init("*")
+#         neptune.create_experiment(name="*",
+#                                 params={"scaling" : args["scaling"],
+#                                         "div" : args["div"],
+#                                         "batch_size" : args["batch_size"],
 
-                                        "n_mfcc" : args["n_mfcc"],
-                                        "n_fft" : args["n_fft"],
-                                        "n_mels" : args["n_mels"],
-                                        "win_length" : args["win_length"],
-                                        "hop_length" : args["hop_length"],
+#                                         "n_mfcc" : args["n_mfcc"],
+#                                         "n_fft" : args["n_fft"],
+#                                         "n_mels" : args["n_mels"],
+#                                         "win_length" : args["win_length"],
+#                                         "hop_length" : args["hop_length"],
                                         
-                                        "learning_rate" : args["learning_rate"],
-                                        "weight_decay" : args["weight_decay"],
-                                        "optimizer" : args["optimizer"]})
+#                                         "learning_rate" : args["learning_rate"],
+#                                         "weight_decay" : args["weight_decay"],
+#                                         "optimizer" : args["optimizer"]})
 
 
     # ## global mean variance
